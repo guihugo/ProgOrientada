@@ -1,8 +1,7 @@
 using System;
 using System.Globalization;
 
-//Estudo de declaração de classe
-namespace Programa1
+namespace Program
 {
     public class Estudo
     {
@@ -17,6 +16,15 @@ namespace Programa1
          x.B = double.Parse(Console.ReadLine());
          x.C = double.Parse(Console.ReadLine());
 
+        double areaX =x.Area(); //Chamado de metodo
+        Console.WriteLine(areaX);
+
+         y.A = double.Parse(Console.ReadLine());
+         y.B = double.Parse(Console.ReadLine());
+         y.C = double.Parse(Console.ReadLine());
+        
+        double areaY =y.Area();
+        Console.WriteLine(areaY);
         }
     } 
 }   
