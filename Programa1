@@ -1,0 +1,22 @@
+using System;
+using System.Globalization;
+
+//Estudo de declaração de classe
+namespace Programa1
+{
+    public class Estudo
+    {
+        static void Main()
+        {
+         Triangulo x,y;
+
+         x = new Triangulo();
+         y = new Triangulo();
+
+         x.A = double.Parse(Console.ReadLine());
+         x.B = double.Parse(Console.ReadLine());
+         x.C = double.Parse(Console.ReadLine());
+
+        }
+    } 
+}   
