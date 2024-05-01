@@ -1,6 +1,7 @@
 using System;
 
-
+//Calcula area de um piramide
+///Define o método para calculo
 namespace Program
 {
     class Triangulo
